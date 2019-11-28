@@ -32,7 +32,7 @@
     <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="demo-header mdl-layout__header mdl-layout__header--scroll">
             <div class="mdl-layout__header-row">
-                <img src="static/images/logo.png" alt="find:me" style="max-height: 80%;" class="mdl-layout-title" />
+                <img src="static/images/logo.svg" alt="find:me" style="max-height: 80%;" class="mdl-layout-title" />
                 <div class="mdl-layout-spacer"></div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
         mdl-textfield--floating-label mdl-textfield--align-right">
@@ -87,11 +87,11 @@
         </div>
         <main class="mdl-layout__content demo-content">
             <div class="mdl-grid">
-                <div style="text-align: center;"
+                <div style="text-align: center; height: max-content;"
                     class="mdl-cell mdl-cell--2-col mdl-color--white mdl-shadow--2dp content">
                     <div class="mdl-grid">
                         <span class="mdl-cell mdl-cell--12-col">
-                            <img style="vertical-align: middle; margin: 15px; width: 200px;"
+                            <img style="vertical-align: middle; margin: 15px; max-width: 100%; border-radius: 50%;"
                                 src="static/images/user.jpg">
                         </span>
                         <span class="mdl-cell mdl-cell--6-col">
@@ -102,9 +102,28 @@
                         </span>
                     </div>
                 </div>
-                <div class="mdl-cell mdl-cell--10-col mdl-color--white mdl-shadow--2dp content">
-                    <h1 style="margin-left:auto ">Человек Человек</h1>
+                <div class="mdl-cell mdl-cell--10-col mdl-color--white mdl-shadow--2dp content"
+                    style="height: max-content;">
+                    <div class="mdl-grid">
+                        <h1 style="margin-left:auto md">Человек Человек</h1>
+                        <div
+                            class="mdl-cell mdl-cell--12-col mdl-color--white mdl-shadow--2dp content">
+                            <h1>Hello World!</h1>
+                            <span>This is my first post!</span>
+                        </div>
+                        <div
+                            class="mdl-cell mdl-cell--12-col mdl-color--white mdl-shadow--2dp content">
+                            <h1>Hello World!</h1>
+                            <span>This is my first post!</span>
+                        </div>
+                        <div
+                            class="mdl-cell mdl-cell--12-col mdl-color--white mdl-shadow--2dp content">
+                            <h1>Hello World!</h1>
+                            <span>This is my first post!</span>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
         </main>
     </div>
