@@ -99,7 +99,10 @@ html, body {
 }
 
 .demo-content {
-  max-width: 1080px;
+  max-width: 100%;
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
 }
 
 
