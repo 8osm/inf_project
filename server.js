@@ -6,7 +6,7 @@ app.use(morgan('dev'));
 app.use(express.static('static'))
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
+    res.sendFile(__dirname + '/index.ejs');
 })
 
 app.listen(5858, () => console.log('Listening on 5858!'));
