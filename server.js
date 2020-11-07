@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 })
 
-app.listen(80, () => console.log('Listening on 80!'));
+app.listen(8080, () => console.log('Listening on 80!'));
